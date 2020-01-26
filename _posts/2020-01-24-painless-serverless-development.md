@@ -310,7 +310,7 @@ Instead of getting back a response immediately, the debugger will stop on the br
 
 When building and updating a function, you'd typically have to code and test your function locally, and then build, push and deploy it (or use `faas up`) to validate everything end to end. And you would be repeating this cycle over and over until you're done with your work. 
 
-Using Okteto with OpenFaaS vastly accelerates your development workflow. You `faas up` your function once, `okteto up` to deploy your development environment, and then you can develop and test your function as fast as type, in an environment that's as close to production as possible.
+Using Okteto with OpenFaaS vastly accelerates your development workflow. Run `faas up` your function once, `okteto up` to deploy your development environment, and you can start developing and testing your function as fast as type, in an environment that's as close to production as possible. And as an added bonus, everything is running directly in your Kubernetes cluster, reducing the load and battery utilization of your local machine.
 
 If you are building functions today, I'd encourage you to try out this workflow and [let me know](https://twitter.com/rberrelleza) what you think about it and how we can improve it.
 
