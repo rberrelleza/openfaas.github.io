@@ -308,7 +308,9 @@ Instead of getting back a response immediately, the debugger will stop on the br
 
 ### Wrapping up
 
-I've found that this workflow really accelerates my everyday development. I have two commands to get my entire development environment up and running (`faas up` and `okteto up`) and once coding I can stay in "flow" for longer periods, which makes me a lot more productive. 
+When building and updating a function, you'd typically have to code and test your function locally, and then build, push and deploy it (or use `faas up`) to validate everything end to end. And you would be repeating this cycle over and over until you're done with your work. 
+
+Using Okteto with OpenFaaS vastly accelerates your development workflow. You `faas up` your function once, `okteto up` to deploy your development environment, and then you can develop and test your function as fast as type, in an environment that's as close to production as possible.
 
 If you are building functions today, I'd encourage you to try out this workflow and [let me know](https://twitter.com/rberrelleza) what you think about it and how we can improve it.
 
