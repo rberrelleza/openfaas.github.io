@@ -92,12 +92,12 @@ faas new hello --lang golang-middleware --handler function --gateway $GATEWAY_UR
 
 ```console
 Folder: function created.
-    ___                   _____           ____
-/ _ \ _ __   ___ _ __ |  ___|_ _  __ _/ ___|
+  ___                   _____           ____
+ / _ \ _ __   ___ _ __ |  ___|_ _  __ _/ ___|
 | | | | '_ \ / _ \ '_ \| |_ / _` |/ _` \___ \
 | |_| | |_) |  __/ | | |  _| (_| | (_| |___) |
-\___/| .__/ \___|_| |_|_|  \__,_|\__,_|____/
-        |_|
+ \___/| .__/ \___|_| |_|_|  \__,_|\__,_|____/
+      |_|
 
 
 Function created in folder: function
@@ -270,7 +270,7 @@ Forking - dlv [debug /home/app/handler --listen 0.0.0.0:2345 --api-version 2 --l
 
 Open the repo we created in VSCode, and create a `.vscode/launch.json` file with the following configuration:
 
-```json
+```
 {
   "version": "0.2.0",
   "configurations": [
